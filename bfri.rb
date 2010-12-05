@@ -13,7 +13,7 @@ end
 app_buffer = Array.new(1, 0)
 app_pointer = 0
 
-app = File.read("./toto.test")
+app = File.read(ARGV[0])
 app_pos = 0
 
 while (app_pos < app.length)
