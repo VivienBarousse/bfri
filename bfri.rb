@@ -30,7 +30,7 @@ while (app_pos < app.length)
     when '.'
         print app_buffer[app_pointer].chr
     when ','
-        app_buffer[app_pointer] = ARGF.read(1)
+        app_buffer[app_pointer] = STDIN.getc
     when '['
         if (app_buffer[app_pointer] == 0 || app_buffer[app_pointer] == nil)
             matching = app_pos + 1
