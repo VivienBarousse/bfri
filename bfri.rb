@@ -4,6 +4,10 @@ class NilClass
         return int
     end
 
+    def -(int)
+        return 0 - int
+    end
+
     def chr
         return 0.chr
     end
