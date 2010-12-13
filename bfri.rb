@@ -14,6 +14,12 @@ class NilClass
 
 end
 
+if (ARGV.size != 1)
+    puts "Usage: ruby bfri.rb program"
+    puts "\tWhere program is a valid brainfuck program"
+    exit
+end
+
 app_buffer = Array.new(1, 0)
 app_pointer = 0
 
