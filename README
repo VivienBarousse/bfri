@@ -1,0 +1,4 @@
+BrainFuck interpreter written in Ruby.
+
+NOTE: This is a scholar project. It may contain bug, and probably won't be
+maintained for long.
